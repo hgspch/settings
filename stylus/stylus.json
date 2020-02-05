@@ -5,56 +5,20 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"installDate": 1556623557269,
-		"name": "dzone.com",
+		"installDate": 1556809331410,
+		"name": "spring.io",
 		"sections": [
 			{
-				"code": ".article-stream .content .content-html code, .article-stream .content .content-html pre {\n font-size: 16px !important;   \n}",
+				"code": "pre.programlisting {\n    font-size: 18px;\n}",
 				"domains": [
-					"dzone.com"
+					"spring.io"
 				]
 			}
 		],
-		"updateDate": 1556624367046,
-		"id": 2
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1556637928584,
-		"name": "stackoverflow.com",
-		"sections": [
-			{
-				"code": ".post-text code, .wmd-preview code {\n    font-size: 14px;\n}",
-				"domains": [
-					"stackoverflow.com"
-				]
-			}
-		],
-		"updateDate": 1556637928584,
-		"id": 3
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1556695244581,
-		"name": "javarevisited.blogspot.com",
-		"sections": [
-			{
-				"code": "pre { font-size: 16px !important; }",
-				"domains": [
-					"javarevisited.blogspot.com"
-				]
-			}
-		],
-		"updateDate": 1556695253049,
-		"id": 4
+		"updateDate": 1556810075898,
+		"id": 1,
+		"_id": "3b9c7202-ddf3-4261-94a4-10b512ecb611",
+		"_rev": 1580736926942
 	},
 	{
 		"enabled": true,
@@ -73,216 +37,9 @@
 			}
 		],
 		"updateDate": 1556709638223,
-		"id": 5
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1556710759839,
-		"name": "www.tutorialspoint.com",
-		"sections": [
-			{
-				"code": "pre.prettyprint, pre.notranslate, pre.prettyprinted {\n    font-size: 16px !important;\n}",
-				"domains": [
-					"www.tutorialspoint.com"
-				]
-			}
-		],
-		"updateDate": 1556710876325,
-		"id": 6
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1556713452322,
-		"name": "jenkov.com",
-		"sections": [
-			{
-				"code": "code, .codeBox {\n    font-size: 16px;\n}",
-				"domains": [
-					"jenkov.com"
-				]
-			}
-		],
-		"updateDate": 1556713452322,
-		"id": 7
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1556772384580,
-		"name": "stackabuse.com",
-		"sections": [
-			{
-				"code": "pre code {    \n    font-size: 16px;\n}",
-				"domains": [
-					"stackabuse.com"
-				]
-			}
-		],
-		"updateDate": 1556772384580,
-		"id": 8
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1556953972885,
-		"name": "javacodegeeks.com",
-		"sections": [
-			{
-				"code": "code {\n    font-size: 14px;\n}",
-				"domains": [
-					"javacodegeeks.com"
-				]
-			}
-		],
-		"updateDate": 1556953972885,
-		"id": 9
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1557401357818,
-		"name": "reflectoring.io",
-		"sections": [
-			{
-				"code": "p>code, a>code, li>code, figcaption>code, td>code, div.highlighter-rouge .highlight, figure.highlight .highlight  {\n    font-size: 16px;\n}\n",
-				"domains": [
-					"reflectoring.io"
-				]
-			}
-		],
-		"updateDate": 1557401647906,
-		"id": 10
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1567829833715,
-		"name": "mail.google.com",
-		"sections": [
-			{
-				"code": ".a3s, .g6 {\n    font-size: 17px;\n}",
-				"domains": [
-					"mail.google.com"
-				]
-			}
-		],
-		"updateDate": 1567829833715,
-		"id": 11
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1576935024847,
-		"name": "springframework.guru",
-		"sections": [
-			{
-				"code": ".EnlighterJS span {\n    font-size: 14px;\n    font-family: \"Source Code Pro\";\n}",
-				"domains": [
-					"springframework.guru"
-				]
-			}
-		],
-		"updateDate": 1576935118550,
-		"id": 12
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1579682931770,
-		"name": "typing.com",
-		"sections": [
-			{
-				"code": ".structure-advert {\n    display: none;\n}\n.advert--horiz {\n    display: none;\n}\n.js-keyboard-holder {\n    display: none;\n}\n.advert {\n    display: none;\n}",
-				"domains": [
-					"typing.com"
-				]
-			}
-		],
-		"updateDate": 1579696340354,
-		"id": 13
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1579168844760,
-		"name": "thoughts-on-java.org",
-		"sections": [
-			{
-				"code": ".content {\n    width: 1250px;\n}\n\n.gist .blob-code-inner {    \n    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;\n    font-size: 19px;\n}",
-				"domains": [
-					"thoughts-on-java.org"
-				]
-			}
-		],
-		"updateDate": 1579515137209,
-		"id": 14
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1559134127349,
-		"name": "udacity.com",
-		"sections": [
-			{
-				"code": "pre, .CodeMirror-lines {\n    font-size: 16px;\n}\n",
-				"domains": [
-					"udacity.com"
-				]
-			}
-		],
-		"updateDate": 1559138519572,
-		"id": 15
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1557758622088,
-		"name": "java67.com",
-		"sections": [
-			{
-				"code": "pre, xmp, plaintext, listing {\n        font-size: 16px !important;\n}",
-				"domains": [
-					"java67.com"
-				]
-			}
-		],
-		"updateDate": 1557758622088,
-		"id": 16
+		"id": 2,
+		"_id": "42feeddd-77ae-4fe3-b19e-062609ff113e",
+		"_rev": 1580736926942
 	},
 	{
 		"enabled": true,
@@ -301,7 +58,9 @@
 			}
 		],
 		"updateDate": 1558949063607,
-		"id": 17
+		"id": 3,
+		"_id": "eacc371a-41c1-42f3-8f27-989e18ba2e84",
+		"_rev": 1580736926942
 	},
 	{
 		"enabled": true,
@@ -309,37 +68,20 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"installDate": 1558011533603,
-		"name": "jhipster.tech",
+		"installDate": 1556623557269,
+		"name": "dzone.com",
 		"sections": [
 			{
-				"code": "code {    \n    font-size: 16px;\n}\npre {\n    font-size: 16px;\n}",
+				"code": ".article-stream .content .content-html code, .article-stream .content .content-html pre {\n font-size: 16px !important;   \n}",
 				"domains": [
-					"jhipster.tech"
+					"dzone.com"
 				]
 			}
 		],
-		"updateDate": 1558431290654,
-		"id": 18
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1556809331410,
-		"name": "spring.io",
-		"sections": [
-			{
-				"code": "pre.programlisting {\n    font-size: 18px;\n}",
-				"domains": [
-					"spring.io"
-				]
-			}
-		],
-		"updateDate": 1556810075898,
-		"id": 19
+		"updateDate": 1556624367046,
+		"id": 4,
+		"_id": "2ab859ec-5bef-4f28-8b55-d9539e5bcccf",
+		"_rev": 1580736926942
 	},
 	{
 		"enabled": true,
@@ -358,7 +100,9 @@
 			}
 		],
 		"updateDate": 1557158241564,
-		"id": 20
+		"id": 5,
+		"_id": "6cb98d7b-9ce0-496a-9481-9dac2c920bdd",
+		"_rev": 1580736926942
 	},
 	{
 		"enabled": true,
@@ -366,37 +110,62 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"installDate": 1559555600191,
-		"name": "localhost",
+		"installDate": 1557758622088,
+		"name": "java67.com",
 		"sections": [
 			{
-				"code": "pre code.hljs span {\n    font-size: 16px !important;\n}",
-				"urlPrefixes": [
-					"http://localhost:8082/#/admin/docs"
-				]
-			}
-		],
-		"updateDate": 1559555868357,
-		"id": 21
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1580122783154,
-		"name": "linkedin.com",
-		"sections": [
-			{
-				"code": ".classroom-layout__stage {\n    min-height: 800px;\n}",
+				"code": "pre, xmp, plaintext, listing {\n        font-size: 16px !important;\n}",
 				"domains": [
-					"linkedin.com"
+					"java67.com"
 				]
 			}
 		],
-		"updateDate": 1580122783154,
-		"id": 22
+		"updateDate": 1557758622088,
+		"id": 6,
+		"_id": "9b189f45-b9e9-46f2-8588-425a106f233e",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1556772384580,
+		"name": "stackabuse.com",
+		"sections": [
+			{
+				"code": "pre code {    \n    font-size: 16px;\n}",
+				"domains": [
+					"stackabuse.com"
+				]
+			}
+		],
+		"updateDate": 1556772384580,
+		"id": 7,
+		"_id": "d77ac990-c2fd-46e7-8474-a05d8069639b",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1558011533603,
+		"name": "jhipster.tech",
+		"sections": [
+			{
+				"code": "code {    \n    font-size: 16px;\n}\npre {\n    font-size: 16px;\n}",
+				"domains": [
+					"jhipster.tech"
+				]
+			}
+		],
+		"updateDate": 1558431290654,
+		"id": 8,
+		"_id": "c57ac060-bca4-4bbd-81f9-39e540f3a0b9",
+		"_rev": 1580736926942
 	},
 	{
 		"enabled": true,
@@ -415,6 +184,302 @@
 			}
 		],
 		"updateDate": 1580664103705,
+		"id": 9,
+		"_id": "11caf47c-3f9f-4ea2-b405-360bef63188a",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1559134127349,
+		"name": "udacity.com",
+		"sections": [
+			{
+				"code": "pre, .CodeMirror-lines {\n    font-size: 16px;\n}\n",
+				"domains": [
+					"udacity.com"
+				]
+			}
+		],
+		"updateDate": 1559138519572,
+		"id": 10,
+		"_id": "cdf23a3b-5cd4-453f-9ea9-228a068599ca",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1556637928584,
+		"name": "stackoverflow.com",
+		"sections": [
+			{
+				"code": ".post-text code, .wmd-preview code {\n    font-size: 14px;\n}",
+				"domains": [
+					"stackoverflow.com"
+				]
+			}
+		],
+		"updateDate": 1556637928584,
+		"id": 11,
+		"_id": "18c306ac-ae95-4e66-a4b4-01cf18875198",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1576935024847,
+		"name": "springframework.guru",
+		"sections": [
+			{
+				"code": ".EnlighterJS span {\n    font-size: 14px;\n    font-family: \"Source Code Pro\";\n}",
+				"domains": [
+					"springframework.guru"
+				]
+			}
+		],
+		"updateDate": 1576935118550,
+		"id": 12,
+		"_id": "57da2403-a157-4512-a530-458ad49522de",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1559555600191,
+		"name": "localhost",
+		"sections": [
+			{
+				"code": "pre code.hljs span {\n    font-size: 16px !important;\n}",
+				"urlPrefixes": [
+					"http://localhost:8082/#/admin/docs"
+				]
+			}
+		],
+		"updateDate": 1559555868357,
+		"id": 13,
+		"_id": "d0615999-e849-4f59-8803-f433c1d75778",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1579168844760,
+		"name": "thoughts-on-java.org",
+		"sections": [
+			{
+				"code": ".content {\n    width: 1250px;\n}\n\n.gist .blob-code-inner {    \n    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;\n    font-size: 19px;\n}",
+				"domains": [
+					"thoughts-on-java.org"
+				]
+			}
+		],
+		"updateDate": 1579515137209,
+		"id": 14,
+		"_id": "b74e786f-75e0-4b1c-815d-8b162f4a1130",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1556695244581,
+		"name": "javarevisited.blogspot.com",
+		"sections": [
+			{
+				"code": "pre { font-size: 16px !important; }",
+				"domains": [
+					"javarevisited.blogspot.com"
+				]
+			}
+		],
+		"updateDate": 1556695253049,
+		"id": 15,
+		"_id": "9f8d4bdf-6c7e-47de-aeb8-ad4c0afd2ef5",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1556710759839,
+		"name": "www.tutorialspoint.com",
+		"sections": [
+			{
+				"code": "pre.prettyprint, pre.notranslate, pre.prettyprinted {\n    font-size: 16px !important;\n}",
+				"domains": [
+					"www.tutorialspoint.com"
+				]
+			}
+		],
+		"updateDate": 1556710876325,
+		"id": 16,
+		"_id": "800047d8-c6c3-402a-a468-ae75e5b30cae",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1556713452322,
+		"name": "jenkov.com",
+		"sections": [
+			{
+				"code": "code, .codeBox {\n    font-size: 16px;\n}",
+				"domains": [
+					"jenkov.com"
+				]
+			}
+		],
+		"updateDate": 1556713452322,
+		"id": 17,
+		"_id": "d3e505bf-70a4-4d48-8ed4-ddce871528a9",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1556953972885,
+		"name": "javacodegeeks.com",
+		"sections": [
+			{
+				"code": "code {\n    font-size: 14px;\n}",
+				"domains": [
+					"javacodegeeks.com"
+				]
+			}
+		],
+		"updateDate": 1556953972885,
+		"id": 18,
+		"_id": "ef1c9c5e-a841-4e80-acc4-26f9a03e347a",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1557401357818,
+		"name": "reflectoring.io",
+		"sections": [
+			{
+				"code": "p>code, a>code, li>code, figcaption>code, td>code, div.highlighter-rouge .highlight, figure.highlight .highlight  {\n    font-size: 16px;\n}\n",
+				"domains": [
+					"reflectoring.io"
+				]
+			}
+		],
+		"updateDate": 1557401647906,
+		"id": 19,
+		"_id": "f794fe15-a22e-446a-ae38-d8e38cb01199",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1567829833715,
+		"name": "mail.google.com",
+		"sections": [
+			{
+				"code": ".a3s, .g6 {\n    font-size: 17px;\n}",
+				"domains": [
+					"mail.google.com"
+				]
+			}
+		],
+		"updateDate": 1567829833715,
+		"id": 20,
+		"_id": "8216c5a3-1974-4e11-b062-9d538cf3f4f2",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1579682931770,
+		"name": "typing.com",
+		"sections": [
+			{
+				"code": ".structure-advert {\n    display: none;\n}\n.advert--horiz {\n    display: none;\n}\n.js-keyboard-holder {\n    display: none;\n}\n.advert {\n    display: none;\n}",
+				"domains": [
+					"typing.com"
+				]
+			}
+		],
+		"updateDate": 1579696340354,
+		"id": 21,
+		"_id": "30fc15bd-274a-4069-a1c9-eea3ebeda3f7",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1580122783154,
+		"name": "linkedin.com",
+		"sections": [
+			{
+				"code": ".classroom-layout__stage {\n    min-height: 800px;\n}",
+				"domains": [
+					"linkedin.com"
+				]
+			}
+		],
+		"updateDate": 1580122783154,
+		"id": 22,
+		"_id": "b69e9100-1918-4af9-ad84-0e84b0ecf008",
+		"_rev": 1580736926942
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1580746538810,
+		"name": "ndpsoftware.com",
+		"sections": [
+			{
+				"code": "#commands {\n    font-size: 16px;\n    font-family: \"Lucida Console\", monospace;\n}\n\n#commands > dt, #commands > dt.selected {\n   padding: 5px;\n}",
+				"domains": [
+					"ndpsoftware.com"
+				]
+			}
+		],
+		"updateDate": 1580746747981,
+		"_id": "28437cf3-9bd3-4a31-909d-1894bfc7ec90",
+		"_rev": 1580746747981,
 		"id": 23
 	}
 ]
