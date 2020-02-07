@@ -240,16 +240,16 @@
 		"name": "springframework.guru",
 		"sections": [
 			{
-				"code": ".EnlighterJS span {\n    font-size: 14px;\n    font-family: \"Source Code Pro\";\n}",
+				"code": ".EnlighterJS span {\n    font-size: 17px;\n    font-family: \"Lucida Console\", monospace;\n}\nbody {\n    font-family: \"Verdana\";\n    font-size: 17px;\n}\nol.gitEnlighterJS li, ul.gitEnlighterJS li {\n    line-height: 24px;\n}",
 				"domains": [
 					"springframework.guru"
 				]
 			}
 		],
-		"updateDate": 1576935118550,
+		"updateDate": 1581090196438,
 		"id": 12,
 		"_id": "57da2403-a157-4512-a530-458ad49522de",
-		"_rev": 1580736926942
+		"_rev": 1581090196438
 	},
 	{
 		"enabled": true,
