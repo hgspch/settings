@@ -481,5 +481,26 @@
 		"_id": "28437cf3-9bd3-4a31-909d-1894bfc7ec90",
 		"_rev": 1580746747981,
 		"id": 23
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1581325346978,
+		"name": "manning.com",
+		"sections": [
+			{
+				"code": "#book-markup-container p, #book-markup-container ul, #book-markup-container ol, #book-markup-container table {\n    font-size: 17px;\n}\n\n#book-markup-container kbd {\n    font-size: 1rem;\n}\n.listing-container .code-area {\n    font-size: 18px;\n}",
+				"domains": [
+					"manning.com"
+				]
+			}
+		],
+		"updateDate": 1581325346978,
+		"_id": "22baf19d-f198-4734-8062-ee598b8933e8",
+		"_rev": 1581325346978,
+		"id": 24
 	}
 ]
