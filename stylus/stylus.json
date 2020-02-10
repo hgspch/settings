@@ -492,15 +492,15 @@
 		"name": "manning.com",
 		"sections": [
 			{
-				"code": "#book-markup-container p, #book-markup-container ul, #book-markup-container ol, #book-markup-container table {\n    font-size: 17px;\n}\n\n#book-markup-container kbd {\n    font-size: 1rem;\n}\n.listing-container .code-area {\n    font-size: 18px;\n}",
+				"code": ".text-size-standard #book-markup-container p, #book-markup-container p, #book-markup-container ul, #book-markup-container ol, #book-markup-container table {\n    font-size: 17px !important;\n}\n\n.text-size-standard #book-markup-container p, #book-markup-container kbd {\n    font-size: 1rem !important;\n}\n.listing-container .code-area {\n    font-size: 18px !important;\n}",
 				"domains": [
 					"manning.com"
 				]
 			}
 		],
-		"updateDate": 1581325346978,
+		"updateDate": 1581326182866,
 		"_id": "22baf19d-f198-4734-8062-ee598b8933e8",
-		"_rev": 1581325346978,
+		"_rev": 1581326182866,
 		"id": 24
 	}
 ]
