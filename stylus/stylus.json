@@ -502,5 +502,26 @@
 		"_id": "22baf19d-f198-4734-8062-ee598b8933e8",
 		"_rev": 1581326182866,
 		"id": 24
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1581418521695,
+		"name": "objectdb.com",
+		"sections": [
+			{
+				"code": "body {\n    font-family: Roboto, Verdana, \"Open Sans\", Tahoma, Arial, Sans-Serif;\n    font-size: 1.2rem;\n}\npre.prettyprint, pre[lang], pre[language] {\n    font-size: 1.1rem;\n}\ncode {\n    font-size: 1.1rem;\n}",
+				"domains": [
+					"objectdb.com"
+				]
+			}
+		],
+		"updateDate": 1581418614423,
+		"_id": "e1dd3e16-e7fb-4570-899f-1ecff0b73178",
+		"_rev": 1581418614423,
+		"id": 25
 	}
 ]
