@@ -534,15 +534,15 @@
 		"name": "vladmihalcea.com",
 		"sections": [
 			{
-				"code": "p {\n    font-size: 1.1em;\n}",
+				"code": "p {\n    font-size: 1.1em;\n}\n.syntaxhighlighter {\n    font-size: 1.1em !important;\n}",
 				"domains": [
 					"vladmihalcea.com"
 				]
 			}
 		],
-		"updateDate": 1581949688814,
+		"updateDate": 1581951848801,
 		"_id": "56c12c00-05df-44ca-bd19-a072cc87d280",
-		"_rev": 1581949688814,
+		"_rev": 1581951848801,
 		"id": 27
 	}
 ]
