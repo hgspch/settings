@@ -523,5 +523,26 @@
 		"_id": "e1dd3e16-e7fb-4570-899f-1ecff0b73178",
 		"_rev": 1581947950878,
 		"id": 25
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1581949688814,
+		"name": "vladmihalcea.com",
+		"sections": [
+			{
+				"code": "p {\n    font-size: 1.1em;\n}",
+				"domains": [
+					"vladmihalcea.com"
+				]
+			}
+		],
+		"updateDate": 1581949688814,
+		"_id": "56c12c00-05df-44ca-bd19-a072cc87d280",
+		"_rev": 1581949688814,
+		"id": 27
 	}
 ]
