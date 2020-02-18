@@ -177,15 +177,15 @@
 		"name": "github.com",
 		"sections": [
 			{
-				"code": ".blob-code-inner {\n    font-size: 14px !important;\n}\n/* Seule cette conf passe sur Win et Mac */\n.markdown-body code, .markdown-body .highlight pre, .markdown-body pre {\n    font-size: 18px !important;\n    font-family: \"Lucida Console\", monospace;\n}\n/* Seule cette conf passe sur Win et Mac */\n.markdown-body, body, p {\n    font-size: 18px;\n    font-family: Verdana;\n}\n.markdown-body h1 {\n    font-size: 2em;\n}\n.markdown-body h2 {\n    font-size: 1.8em;\n}\n.markdown-body h3 {\n    font-size: 1.6em;\n}\n.markdown-body h4 {\n    font-size: 1.4em;\n}\n.markdown-body h5 {\n    font-size: 1.2em;\n}\n\n.pl-pds, .pl-s, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre {\n    color: #008600;\n    font-weight: bold;\n}\n.pl-e, .pl-en {\n    color: #003fff;\n}\n.pl-k {\n    color: #000099;\n    font-weight: bold;\n}\n.pl-s .pl-s1, .pl-smi {\n    color: #006fd2;\n}\n.pl-smw /* warning */ {\n    color: #8f0061;\n}\n.pl-c1 /* constant (numbers ?) */ {\n    color: #0600ff;\n}",
+				"code": "/* Pour code \n=========================================================================\n*/\n.blob-code-inner {\n    /* attention, était 14px pour AscciiDoc ? */\n    font-size: 17px !important;\n    font-family: \"Lucida Console\";\n}    \n\n/* Pour AsciiDoc \n=========================================================================\n*/\n\n/* Seule cette conf passe sur Win et Mac */\n.markdown-body code, .markdown-body .highlight pre, .markdown-body pre {\n    font-size: 18px !important;\n    font-family: \"Lucida Console\", monospace;\n}\n/* Seule cette conf passe sur Win et Mac */\n.markdown-body, body, p {\n    font-size: 18px;\n    font-family: Verdana;\n}\n.markdown-body h1 {\n    font-size: 2em;\n}\n.markdown-body h2 {\n    font-size: 1.8em;\n}\n.markdown-body h3 {\n    font-size: 1.6em;\n}\n.markdown-body h4 {\n    font-size: 1.4em;\n}\n.markdown-body h5 {\n    font-size: 1.2em;\n}\n\n.pl-pds, .pl-s, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre {\n    color: #008600;\n    font-weight: bold;\n}\n.pl-e, .pl-en {\n    color: #003fff;\n}\n.pl-k {\n    color: #000099;\n    font-weight: bold;\n}\n.pl-s .pl-s1, .pl-smi {\n    color: #006fd2;\n}\n.pl-smw /* warning */ {\n    color: #8f0061;\n}\n.pl-c1 /* constant (numbers ?) */ {\n    color: #0600ff;\n}",
 				"domains": [
 					"github.com"
 				]
 			}
 		],
-		"updateDate": 1581484018545,
+		"updateDate": 1582020682263,
 		"_id": "11caf47c-3f9f-4ea2-b405-360bef63188a",
-		"_rev": 1581947950878,
+		"_rev": 1582020682263,
 		"id": 9
 	},
 	{
@@ -459,7 +459,7 @@
 		"updateDate": 1580122783154,
 		"id": 22,
 		"_id": "b69e9100-1918-4af9-ad84-0e84b0ecf008",
-		"_rev": 1581947950878
+		"_rev": 1582020554547
 	},
 	{
 		"enabled": true,
