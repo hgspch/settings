@@ -240,16 +240,16 @@
 		"name": "springframework.guru",
 		"sections": [
 			{
-				"code": ".EnlighterJS span {\n    font-size: 17px;\n    font-family: \"Lucida Console\", monospace;\n}\nbody {\n    font-family: \"Verdana\";\n    font-size: 17px;\n}\nol.gitEnlighterJS li, ul.gitEnlighterJS li {\n    line-height: 24px;\n}",
+				"code": ".EnlighterJS span {\n    font-size: 17px;\n    font-family: \"Lucida Console\", monospace;\n}\nbody {\n    font-family: \"Verdana\";\n    font-size: 18px;\n}\nol.gitEnlighterJS li, ul.gitEnlighterJS li {\n    line-height: 24px;\n}",
 				"domains": [
 					"springframework.guru"
 				]
 			}
 		],
-		"updateDate": 1581090196438,
+		"updateDate": 1583164074878,
 		"id": 12,
 		"_id": "57da2403-a157-4512-a530-458ad49522de",
-		"_rev": 1582624030572
+		"_rev": 1583164074878
 	},
 	{
 		"enabled": true,
@@ -408,15 +408,15 @@
 		"name": "mail.google.com",
 		"sections": [
 			{
-				"code": ".a3s, .g6, span {    \n    font-size: 17px !important;\n}\nspan {\n    font-family: Verdana, sans-serif;\n}",
+				"code": ".a3s, .g6, span {    \n    font-size: 18px !important;\n}\nspan {\n    font-family: Verdana, sans-serif;\n}",
 				"domains": [
 					"mail.google.com"
 				]
 			}
 		],
-		"updateDate": 1581948063456,
+		"updateDate": 1583164006524,
 		"_id": "8216c5a3-1974-4e11-b062-9d538cf3f4f2",
-		"_rev": 1582624030572,
+		"_rev": 1583164006524,
 		"id": 20
 	},
 	{
@@ -441,7 +441,7 @@
 		"id": 21
 	},
 	{
-		"enabled": true,
+		"enabled": false,
 		"updateUrl": null,
 		"md5Url": null,
 		"url": null,
@@ -459,7 +459,7 @@
 		"updateDate": 1580122783154,
 		"id": 22,
 		"_id": "b69e9100-1918-4af9-ad84-0e84b0ecf008",
-		"_rev": 1582624030572
+		"_rev": 1583161808496
 	},
 	{
 		"enabled": true,
