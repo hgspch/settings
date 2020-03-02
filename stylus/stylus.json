@@ -437,7 +437,7 @@
 		],
 		"updateDate": 1579696340354,
 		"_id": "30fc15bd-274a-4069-a1c9-eea3ebeda3f7",
-		"_rev": 1582624030572,
+		"_rev": 1583157212061,
 		"id": 21
 	},
 	{
@@ -544,5 +544,26 @@
 		"_id": "56c12c00-05df-44ca-bd19-a072cc87d280",
 		"_rev": 1582624063446,
 		"id": 27
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1583148042644,
+		"name": "www.youtube.com",
+		"sections": [
+			{
+				"code": "/* uniquement pour l'état zoomé avec l'extension \"Zoom\" pour Chrome\n(évite le tronquage sur la droite)\nse déplacer ensuite verticallemnt avec molette, et horizontalement avec clic-milieu\n*/\nytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {    \n    width: 200%;\n}",
+				"domains": [
+					"www.youtube.com"
+				]
+			}
+		],
+		"updateDate": 1583157163792,
+		"_id": "14ac0355-aac2-4079-9362-fcfeaf805182",
+		"_rev": 1583157163792,
+		"id": 28
 	}
 ]
