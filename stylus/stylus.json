@@ -586,5 +586,26 @@
 		"_id": "14ac0355-aac2-4079-9362-fcfeaf805182",
 		"_rev": 1583576543915,
 		"id": 29
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1583585355473,
+		"name": "localhost",
+		"sections": [
+			{
+				"code": "#formattedJson {\n    font: 18px monospace;\n}",
+				"urlPrefixes": [
+					"http://localhost:8080/demo/department-query/2"
+				]
+			}
+		],
+		"updateDate": 1583585355473,
+		"_id": "62446c27-8af7-4656-bc67-bd054e77a10d",
+		"_rev": 1583585355473,
+		"id": 30
 	}
 ]
