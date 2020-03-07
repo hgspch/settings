@@ -72,15 +72,15 @@
 		"name": "baeldung.com",
 		"sections": [
 			{
-				"code": "body .syntaxhighlighter, body .syntaxhighlighter a, body .syntaxhighlighter div, body .syntaxhighlighter code, body .syntaxhighlighter table, body .syntaxhighlighter table td, body .syntaxhighlighter table tr, body .syntaxhighlighter table tbody, body .syntaxhighlighter table thead, body .syntaxhighlighter table caption, body .syntaxhighlighter textarea  {\n    font-size: 16px !important;\n}",
+				"code": "body .syntaxhighlighter, body .syntaxhighlighter a, body .syntaxhighlighter div, body .syntaxhighlighter code, body .syntaxhighlighter table, body .syntaxhighlighter table td, body .syntaxhighlighter table tr, body .syntaxhighlighter table tbody, body .syntaxhighlighter table thead, body .syntaxhighlighter table caption, body .syntaxhighlighter textarea  {\n    font-size: 17px !important;\n}",
 				"domains": [
 					"baeldung.com"
 				]
 			}
 		],
-		"updateDate": 1556709638223,
+		"updateDate": 1583583225517,
 		"_id": "42feeddd-77ae-4fe3-b19e-062609ff113e",
-		"_rev": 1583576543915,
+		"_rev": 1583583225517,
 		"id": 5
 	},
 	{
