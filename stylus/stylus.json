@@ -5,27 +5,6 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"installDate": 1556709570850,
-		"name": "baeldung.com",
-		"sections": [
-			{
-				"code": "body .syntaxhighlighter, body .syntaxhighlighter a, body .syntaxhighlighter div, body .syntaxhighlighter code, body .syntaxhighlighter table, body .syntaxhighlighter table td, body .syntaxhighlighter table tr, body .syntaxhighlighter table tbody, body .syntaxhighlighter table thead, body .syntaxhighlighter table caption, body .syntaxhighlighter textarea  {\n    font-size: 17px !important;\n}",
-				"domains": [
-					"baeldung.com"
-				]
-			}
-		],
-		"updateDate": 1583583225517,
-		"_id": "42feeddd-77ae-4fe3-b19e-062609ff113e",
-		"_rev": 1583869411968,
-		"id": 1
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
 		"installDate": 1556623557269,
 		"name": "dzone.com",
 		"sections": [
@@ -38,7 +17,7 @@
 		],
 		"updateDate": 1556624367046,
 		"_id": "2ab859ec-5bef-4f28-8b55-d9539e5bcccf",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 2
 	},
 	{
@@ -59,7 +38,7 @@
 		],
 		"updateDate": 1556637928584,
 		"_id": "18c306ac-ae95-4e66-a4b4-01cf18875198",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 3
 	},
 	{
@@ -80,8 +59,29 @@
 		],
 		"updateDate": 1556695253049,
 		"_id": "9f8d4bdf-6c7e-47de-aeb8-ad4c0afd2ef5",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 4
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1556709570850,
+		"name": "baeldung.com",
+		"sections": [
+			{
+				"code": "body .syntaxhighlighter, body .syntaxhighlighter a, body .syntaxhighlighter div, body .syntaxhighlighter code, body .syntaxhighlighter table, body .syntaxhighlighter table td, body .syntaxhighlighter table tr, body .syntaxhighlighter table tbody, body .syntaxhighlighter table thead, body .syntaxhighlighter table caption, body .syntaxhighlighter textarea  {\n    font-size: 17px !important;\n}",
+				"domains": [
+					"baeldung.com"
+				]
+			}
+		],
+		"updateDate": 1583583225517,
+		"_id": "42feeddd-77ae-4fe3-b19e-062609ff113e",
+		"_rev": 1583918941322,
+		"id": 5
 	},
 	{
 		"enabled": true,
@@ -101,7 +101,7 @@
 		],
 		"updateDate": 1556710876325,
 		"_id": "800047d8-c6c3-402a-a468-ae75e5b30cae",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 6
 	},
 	{
@@ -122,7 +122,7 @@
 		],
 		"updateDate": 1556713452322,
 		"_id": "d3e505bf-70a4-4d48-8ed4-ddce871528a9",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 7
 	},
 	{
@@ -143,7 +143,7 @@
 		],
 		"updateDate": 1556772384580,
 		"_id": "d77ac990-c2fd-46e7-8474-a05d8069639b",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 8
 	},
 	{
@@ -164,7 +164,7 @@
 		],
 		"updateDate": 1556953972885,
 		"_id": "ef1c9c5e-a841-4e80-acc4-26f9a03e347a",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 9
 	},
 	{
@@ -185,7 +185,7 @@
 		],
 		"updateDate": 1557401647906,
 		"_id": "f794fe15-a22e-446a-ae38-d8e38cb01199",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 10
 	},
 	{
@@ -206,7 +206,7 @@
 		],
 		"updateDate": 1583918714830,
 		"_id": "8216c5a3-1974-4e11-b062-9d538cf3f4f2",
-		"_rev": 1583918755434,
+		"_rev": 1583918941322,
 		"id": 11
 	},
 	{
@@ -219,16 +219,16 @@
 		"name": "springframework.guru",
 		"sections": [
 			{
-				"code": ".EnlighterJS span {\n    font-size: 17px;\n    font-family: \"Lucida Console\", monospace;\n}\nbody {\n    font-family: \"Verdana\";\n    font-size: 18px;\n}\nol.gitEnlighterJS li, ul.gitEnlighterJS li {\n    line-height: 24px;\n}",
+				"code": ".EnlighterJS span {\n    font-size: 17px;\n    font-family: \"Lucida Console\", monospace;\n}\nbody {\n    font-family: \"Verdana\";\n    font-size: 18px;\n}\nol.gitEnlighterJS li span, ul.gitEnlighterJS li span {\n    line-height: 24px !important; \n    font-size: 18px !important;\n    font-family: \"Lucida Console\", monospace !important;\n}\n\n@media only screen and (min-width: 768px) {\n    .df_row-fluid .df_span-sm-9 {\n        width: 100%;\n    }\n}",
 				"domains": [
 					"springframework.guru"
 				]
 			}
 		],
-		"updateDate": 1583164074878,
+		"updateDate": 1583919381796,
 		"id": 12,
 		"_id": "57da2403-a157-4512-a530-458ad49522de",
-		"_rev": 1583869411968
+		"_rev": 1583919381796
 	},
 	{
 		"enabled": true,
@@ -248,7 +248,7 @@
 		],
 		"updateDate": 1579696340354,
 		"_id": "30fc15bd-274a-4069-a1c9-eea3ebeda3f7",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 13
 	},
 	{
@@ -270,7 +270,7 @@
 		"updateDate": 1579515137209,
 		"id": 14,
 		"_id": "b74e786f-75e0-4b1c-815d-8b162f4a1130",
-		"_rev": 1583869411968
+		"_rev": 1583918941322
 	},
 	{
 		"enabled": true,
@@ -290,7 +290,7 @@
 		],
 		"updateDate": 1559138519572,
 		"_id": "cdf23a3b-5cd4-453f-9ea9-228a068599ca",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 15
 	},
 	{
@@ -311,7 +311,7 @@
 		],
 		"updateDate": 1557758622088,
 		"_id": "9b189f45-b9e9-46f2-8588-425a106f233e",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 16
 	},
 	{
@@ -332,7 +332,7 @@
 		],
 		"updateDate": 1558949063607,
 		"_id": "eacc371a-41c1-42f3-8f27-989e18ba2e84",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 17
 	},
 	{
@@ -353,7 +353,7 @@
 		],
 		"updateDate": 1558431290654,
 		"_id": "c57ac060-bca4-4bbd-81f9-39e540f3a0b9",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 18
 	},
 	{
@@ -374,7 +374,7 @@
 		],
 		"updateDate": 1582351401450,
 		"_id": "3b9c7202-ddf3-4261-94a4-10b512ecb611",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 19
 	},
 	{
@@ -395,7 +395,7 @@
 		],
 		"updateDate": 1557158241564,
 		"_id": "6cb98d7b-9ce0-496a-9481-9dac2c920bdd",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 20
 	},
 	{
@@ -416,7 +416,7 @@
 		],
 		"updateDate": 1559555868357,
 		"_id": "d0615999-e849-4f59-8803-f433c1d75778",
-		"_rev": 1582349354875,
+		"_rev": 1583918941322,
 		"id": 21
 	},
 	{
@@ -438,7 +438,7 @@
 		"updateDate": 1580122783154,
 		"id": 22,
 		"_id": "b69e9100-1918-4af9-ad84-0e84b0ecf008",
-		"_rev": 1583869411968
+		"_rev": 1583918941322
 	},
 	{
 		"enabled": true,
@@ -458,71 +458,8 @@
 		],
 		"updateDate": 1583576667938,
 		"_id": "11caf47c-3f9f-4ea2-b405-360bef63188a",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
 		"id": 23
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1581325346978,
-		"name": "manning.com",
-		"sections": [
-			{
-				"code": ".text-size-standard #book-markup-container p, #book-markup-container p, #book-markup-container ul, #book-markup-container ol, #book-markup-container table {\n    font-size: 17px !important;\n}\n\n.text-size-standard #book-markup-container p, #book-markup-container kbd {\n    font-size: 1rem !important;\n}\n.listing-container .code-area {\n    font-size: 18px !important;\n}",
-				"domains": [
-					"manning.com"
-				]
-			}
-		],
-		"updateDate": 1581326182866,
-		"_id": "22baf19d-f198-4734-8062-ee598b8933e8",
-		"_rev": 1583869411968,
-		"id": 24
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1581418521695,
-		"name": "objectdb.com",
-		"sections": [
-			{
-				"code": "body {\n    font-family: Roboto, Verdana, \"Open Sans\", Tahoma, Arial, Sans-Serif;\n    font-size: 1.2rem;\n}\npre.prettyprint, pre[lang], pre[language] {\n    font-size: 1.1rem;\n}\ncode {\n    font-size: 1.1rem;\n}",
-				"domains": [
-					"objectdb.com"
-				]
-			}
-		],
-		"updateDate": 1581418614423,
-		"_id": "e1dd3e16-e7fb-4570-899f-1ecff0b73178",
-		"_rev": 1583869411968,
-		"id": 25
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1581949688814,
-		"name": "vladmihalcea.com",
-		"sections": [
-			{
-				"code": "p {\n    font-size: 1.1em;\n}\n.syntaxhighlighter {\n    font-size: 1.1em !important;\n}\n.row .eleven {\n    width: 1100px;\n}\ncode {\n    background: #f0f6ff;\n    font-size: 18px;\n    font-family: \"Lucida Console\", monospace !important;\n}",
-				"domains": [
-					"vladmihalcea.com"
-				]
-			}
-		],
-		"updateDate": 1582624063446,
-		"_id": "56c12c00-05df-44ca-bd19-a072cc87d280",
-		"_rev": 1583869411968,
-		"id": 27
 	},
 	{
 		"enabled": true,
@@ -542,8 +479,50 @@
 		],
 		"updateDate": 1580746747981,
 		"_id": "28437cf3-9bd3-4a31-909d-1894bfc7ec90",
-		"_rev": 1583869411968,
-		"id": 28
+		"_rev": 1583918941322,
+		"id": 24
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1581325346978,
+		"name": "manning.com",
+		"sections": [
+			{
+				"code": ".text-size-standard #book-markup-container p, #book-markup-container p, #book-markup-container ul, #book-markup-container ol, #book-markup-container table {\n    font-size: 17px !important;\n}\n\n.text-size-standard #book-markup-container p, #book-markup-container kbd {\n    font-size: 1rem !important;\n}\n.listing-container .code-area {\n    font-size: 18px !important;\n}",
+				"domains": [
+					"manning.com"
+				]
+			}
+		],
+		"updateDate": 1581326182866,
+		"_id": "22baf19d-f198-4734-8062-ee598b8933e8",
+		"_rev": 1583918941322,
+		"id": 25
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1581418521695,
+		"name": "objectdb.com",
+		"sections": [
+			{
+				"code": "body {\n    font-family: Roboto, Verdana, \"Open Sans\", Tahoma, Arial, Sans-Serif;\n    font-size: 1.2rem;\n}\npre.prettyprint, pre[lang], pre[language] {\n    font-size: 1.1rem;\n}\ncode {\n    font-size: 1.1rem;\n}",
+				"domains": [
+					"objectdb.com"
+				]
+			}
+		],
+		"updateDate": 1581418614423,
+		"_id": "e1dd3e16-e7fb-4570-899f-1ecff0b73178",
+		"_rev": 1583918941322,
+		"id": 26
 	},
 	{
 		"enabled": true,
@@ -563,8 +542,92 @@
 		],
 		"updateDate": 1581969367259,
 		"_id": "a29b68d9-0657-4a23-af96-5fe3354f1f60",
-		"_rev": 1583869411968,
+		"_rev": 1583918941322,
+		"id": 27
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1581949688814,
+		"name": "vladmihalcea.com",
+		"sections": [
+			{
+				"code": "p {\n    font-size: 1.1em;\n}\n.syntaxhighlighter {\n    font-size: 1.1em !important;\n}\n.row .eleven {\n    width: 1100px;\n}\ncode {\n    background: #f0f6ff;\n    font-size: 18px;\n    font-family: \"Lucida Console\", monospace !important;\n}",
+				"domains": [
+					"vladmihalcea.com"
+				]
+			}
+		],
+		"updateDate": 1582624063446,
+		"_id": "56c12c00-05df-44ca-bd19-a072cc87d280",
+		"_rev": 1583918941322,
+		"id": 28
+	},
+	{
+		"enabled": false,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1583148042644,
+		"name": "www.youtube.com",
+		"sections": [
+			{
+				"code": "/* uniquement pour l'état zoomé avec l'extension \"Zoom\" pour Chrome\n(évite le tronquage sur la droite)\nse déplacer ensuite verticallemnt avec molette, et horizontalement avec clic-milieu\n*/\nytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {    \n    width: 200%;\n}",
+				"domains": [
+					"www.youtube.com"
+				]
+			}
+		],
+		"updateDate": 1583157163792,
+		"_id": "14ac0355-aac2-4079-9362-fcfeaf805182",
+		"_rev": 1583918074275,
 		"id": 29
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1583585355473,
+		"name": "localhost",
+		"sections": [
+			{
+				"code": "#formattedJson {\n    font: 18px monospace;\n}",
+				"urlPrefixes": [
+					"http://localhost:8080/demo/department-query/2"
+				]
+			}
+		],
+		"updateDate": 1583585355473,
+		"_id": "62446c27-8af7-4656-bc67-bd054e77a10d",
+		"_rev": 1583585355473,
+		"id": 30
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1559555600191,
+		"name": "localhost 8082 Admin Docs",
+		"sections": [
+			{
+				"code": "pre code.hljs span {\n    font-size: 16px !important;\n}",
+				"urlPrefixes": [
+					"http://localhost:8082/#/admin/docs"
+				]
+			}
+		],
+		"updateDate": 1583745219332,
+		"_id": "d0615999-e849-4f59-8803-f433c1d75778",
+		"_rev": 1583918074275,
+		"id": 31
 	},
 	{
 		"enabled": true,
@@ -584,7 +647,7 @@
 		],
 		"updateDate": 1583745244307,
 		"_id": "62446c27-8af7-4656-bc67-bd054e77a10d",
-		"_rev": 1583869411968,
-		"id": 30
+		"_rev": 1583918941322,
+		"id": 32
 	}
 ]
