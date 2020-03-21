@@ -282,15 +282,15 @@
 		"name": "udacity.com",
 		"sections": [
 			{
-				"code": "pre, .CodeMirror-lines {\n    font-size: 16px;\n}\n",
+				"code": "pre, .CodeMirror-lines {\n    font-size: 16px;\n}\n\n/* SQL */\n.schema-panel-content {\n    height: 350px;\n}",
 				"domains": [
 					"udacity.com"
 				]
 			}
 		],
-		"updateDate": 1559138519572,
+		"updateDate": 1584785612606,
 		"_id": "cdf23a3b-5cd4-453f-9ea9-228a068599ca",
-		"_rev": 1583918941322,
+		"_rev": 1584785612606,
 		"id": 15
 	},
 	{
