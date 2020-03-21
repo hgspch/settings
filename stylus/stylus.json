@@ -660,15 +660,15 @@
 		"name": "local JHipster Swagger API",
 		"sections": [
 			{
-				"code": "/* JHitpster Swagger API */\n.swagger-ui .opblock-body pre.microlight span {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}\n.swagger-ui textarea.curl, .swagger-ui .opblock-body pre.microlight {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}",
+				"code": "/* JHitpster Swagger API */\n.swagger-ui .opblock-body pre.microlight span {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}\n.swagger-ui textarea.curl, .swagger-ui .opblock-body pre.microlight, .swagger-ui textarea {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}",
 				"urlPrefixes": [
 					"http://localhost:8080/"
 				]
 			}
 		],
-		"updateDate": 1584795114413,
+		"updateDate": 1584796298672,
 		"_id": "5f0da0b4-1c74-430e-a569-79f347de2fa1",
-		"_rev": 1584795114413,
+		"_rev": 1584796298672,
 		"id": 33
 	}
 ]
