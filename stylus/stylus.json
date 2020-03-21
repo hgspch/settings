@@ -636,7 +636,7 @@
 		"url": null,
 		"originalMd5": null,
 		"installDate": 1583585355473,
-		"name": "localhost 8080, pour JSON",
+		"name": "local JSON",
 		"sections": [
 			{
 				"code": "#formattedJson {\n    font: 18px monospace;\n}",
@@ -645,9 +645,9 @@
 				]
 			}
 		],
-		"updateDate": 1583745244307,
+		"updateDate": 1584795101738,
 		"_id": "62446c27-8af7-4656-bc67-bd054e77a10d",
-		"_rev": 1584793518626,
+		"_rev": 1584795101738,
 		"id": 32
 	},
 	{
@@ -657,18 +657,18 @@
 		"url": null,
 		"originalMd5": null,
 		"installDate": 1584793378504,
-		"name": "localhost",
+		"name": "local JHipster Swagger API",
 		"sections": [
 			{
-				"code": "/* JHitpster Swagger API */\n.swagger-ui .opblock-body pre.microlight span {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}\n.swagger-ui textarea.curl {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}",
+				"code": "/* JHitpster Swagger API */\n.swagger-ui .opblock-body pre.microlight span {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}\n.swagger-ui textarea.curl, .swagger-ui .opblock-body pre.microlight {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}",
 				"urlPrefixes": [
-					"http://localhost:8080/admin/docs"
+					"http://localhost:8080/"
 				]
 			}
 		],
-		"updateDate": 1584793591715,
+		"updateDate": 1584795114413,
 		"_id": "5f0da0b4-1c74-430e-a569-79f347de2fa1",
-		"_rev": 1584793591715,
+		"_rev": 1584795114413,
 		"id": 33
 	}
 ]
