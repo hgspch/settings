@@ -30,15 +30,15 @@
 		"name": "stackoverflow.com",
 		"sections": [
 			{
-				"code": ".post-text code, .wmd-preview code {\n    font-size: 14px;\n}",
+				"code": "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n    font-size: 17px;\n}\n.post-text code, .wmd-preview code {\n    font-size: 17px;\n}",
 				"domains": [
 					"stackoverflow.com"
 				]
 			}
 		],
-		"updateDate": 1556637928584,
+		"updateDate": 1584794726744,
 		"_id": "18c306ac-ae95-4e66-a4b4-01cf18875198",
-		"_rev": 1583918941322,
+		"_rev": 1584794726744,
 		"id": 3
 	},
 	{
@@ -282,15 +282,15 @@
 		"name": "udacity.com",
 		"sections": [
 			{
-				"code": "pre, .CodeMirror-lines {\n    font-size: 16px;\n}\n\n/* SQL */\n.schema-panel-content {\n    height: 350px;\n}",
+				"code": "pre, .CodeMirror-lines {\n    font-size: 16px;\n}\n\n/* SQL */\n.schema-panel {\n    height: 350px !important;\n}\n.schema-panel-content {\n    height: 350px !important;\n}\n.mainview__sqlinput-cm-container___2k_hO {\n    height: 350px !important;\n}",
 				"domains": [
 					"udacity.com"
 				]
 			}
 		],
-		"updateDate": 1584785612606,
+		"updateDate": 1584787744473,
 		"_id": "cdf23a3b-5cd4-453f-9ea9-228a068599ca",
-		"_rev": 1584785612606,
+		"_rev": 1584787744473,
 		"id": 15
 	},
 	{
@@ -647,7 +647,28 @@
 		],
 		"updateDate": 1583745244307,
 		"_id": "62446c27-8af7-4656-bc67-bd054e77a10d",
-		"_rev": 1583918941322,
+		"_rev": 1584793518626,
 		"id": 32
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1584793378504,
+		"name": "localhost",
+		"sections": [
+			{
+				"code": "/* JHitpster Swagger API */\n.swagger-ui .opblock-body pre.microlight span {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}\n.swagger-ui textarea.curl {\n    font-size: 17px !important;\n    font-weight: normal !important;\n}",
+				"urlPrefixes": [
+					"http://localhost:8080/admin/docs"
+				]
+			}
+		],
+		"updateDate": 1584793591715,
+		"_id": "5f0da0b4-1c74-430e-a569-79f347de2fa1",
+		"_rev": 1584793591715,
+		"id": 33
 	}
 ]
