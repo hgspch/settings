@@ -366,15 +366,15 @@
 		"name": "spring.io",
 		"sections": [
 			{
-				"code": "body, .contentContainer, pre.programlisting, tt {\n    font-size: 19px;\n}\npre, code {\n    font-size: 18px;\n}\n*:not(pre)>code {\n    font-size: 0.9em;\n}    \ndiv.block {\n    font-size: 18px;\n    font-family: Verdana;\n}\n\n.guide main pre {\n font-size: 17px;\n}\n\n.guide main .span8 {\n    width: 1000px;\n}",
+				"code": "@media only screen and (min-width: 1280px) {\n    body.toc2 #header, body.toc2 #content, body.toc2 #footnotes, body.toc2 #footer {\n        max-width: 1550px;\n    }\n}\nbody, .contentContainer, pre.programlisting, tt {\n    font-size: 19px;\n}\npre, code {\n    font-size: 18px;\n}\n.literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class], .listingblock pre:not(.highlight) {\n    font-size: .93em;\n}\n*:not(pre)>code {\n    font-size: 0.93em;\n}    \ndiv.block {\n    font-size: 18px;\n    font-family: Verdana;\n}\n\n.guide main pre {\n font-size: 17px;\n}\n\n.guide main .span8 {\n    width: 1000px;\n}",
 				"domains": [
 					"spring.io"
 				]
 			}
 		],
-		"updateDate": 1585055520886,
+		"updateDate": 1585056033771,
 		"_id": "3b9c7202-ddf3-4261-94a4-10b512ecb611",
-		"_rev": 1585055520886,
+		"_rev": 1585056033771,
 		"id": 19
 	},
 	{
