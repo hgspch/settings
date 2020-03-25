@@ -670,5 +670,26 @@
 		"_id": "5f0da0b4-1c74-430e-a569-79f347de2fa1",
 		"_rev": 1584796298672,
 		"id": 33
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1585125806787,
+		"name": "jetbrains.com",
+		"sections": [
+			{
+				"code": "html, body, .article p, .link, .article__flow-element {\n    font-size: 18px;\n}",
+				"domains": [
+					"jetbrains.com"
+				]
+			}
+		],
+		"updateDate": 1585125983415,
+		"_id": "59f46eef-53b3-454c-bde0-b5c52977adac",
+		"_rev": 1585125983415,
+		"id": 34
 	}
 ]
