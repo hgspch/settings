@@ -555,15 +555,15 @@
 		"name": "vladmihalcea.com",
 		"sections": [
 			{
-				"code": "p {\n    font-size: 1.1em;\n}\n.syntaxhighlighter {\n    font-size: 1.1em !important;\n}\n.row .eleven {\n    width: 1100px;\n}\ncode {\n    background: #f0f6ff;\n    font-size: 18px;\n    font-family: \"Lucida Console\", monospace !important;\n}",
+				"code": ".article > p:first-of-type {\n    font-size: 1.2em;\n    font-weight: bold;\n}\np {\n    font-size: 1.1em;\n}\n.syntaxhighlighter {\n    font-size: 1.1em !important;\n}\n.row .eleven {\n    width: 1100px;\n}\ncode {\n    background: #f0f6ff;\n    font-size: 18px;\n    font-family: \"Lucida Console\", monospace !important;\n}",
 				"domains": [
 					"vladmihalcea.com"
 				]
 			}
 		],
-		"updateDate": 1582624063446,
+		"updateDate": 1585326648703,
 		"_id": "56c12c00-05df-44ca-bd19-a072cc87d280",
-		"_rev": 1583918941322,
+		"_rev": 1585326648703,
 		"id": 28
 	},
 	{
