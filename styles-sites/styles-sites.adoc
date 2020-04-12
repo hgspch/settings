@@ -1,0 +1,10 @@
+== Spring.io
+
+=== Print
+Pour imprimer "friendly", sans backgrounds noirs.
+
+Dans la source, en bas, dans l'appel à la stylesheet :
+
+`<link rel="stylesheet" href="js/highlight/styles/atom-one-dark-reasonable.min.css">`
+
+remplacer "dark truc" par `atom-one-light.min.css`.
