@@ -1,10 +1,14 @@
 == Spring.io
 
 === Print
-Pour imprimer "friendly", sans backgrounds noirs.
 
+==== Pour imprimer "friendly", sans backgrounds noirs : voir conf Stylus.
+
+==== Pour changer le thème
 Dans la source, en bas, dans l'appel à la stylesheet :
 
 `<link rel="stylesheet" href="js/highlight/styles/atom-one-dark-reasonable.min.css">`
 
-remplacer "dark truc" par `atom-one-light.min.css`.
+remplacer "dark truc" par par ex. `atom-one-light.min.css`.
+
+Mais dark truc + Stylus = print ok
