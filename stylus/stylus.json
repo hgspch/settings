@@ -691,5 +691,26 @@
 		"_id": "59f46eef-53b3-454c-bde0-b5c52977adac",
 		"_rev": 1585125983415,
 		"id": 34
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1587973412890,
+		"name": "jira.factory.intescia.dev",
+		"sections": [
+			{
+				"code": "body {\n    font-size: 18px;\n}",
+				"domains": [
+					"jira.factory.intescia.dev"
+				]
+			}
+		],
+		"updateDate": 1587973412890,
+		"_id": "fd43a42e-01c6-4e29-9077-67f8617b89bc",
+		"_rev": 1587973412891,
+		"id": 37
 	}
 ]
