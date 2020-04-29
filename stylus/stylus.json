@@ -72,15 +72,15 @@
 		"name": "baeldung.com",
 		"sections": [
 			{
-				"code": "body .syntaxhighlighter, body .syntaxhighlighter a, body .syntaxhighlighter div, body .syntaxhighlighter code, body .syntaxhighlighter table, body .syntaxhighlighter table td, body .syntaxhighlighter table tr, body .syntaxhighlighter table tbody, body .syntaxhighlighter table thead, body .syntaxhighlighter table caption, body .syntaxhighlighter textarea  {\n    font-size: 17px !important;\n}",
+				"code": "@media screen and (min-width: 1400px) {\n    #main:not(:only-child) {\n        width: calc(100% - 200px - 50px);\n    }\n}\n\n.syntaxhighlighter {\n    overflow-y: hidden !important;\n    overflow-x: hidden !important;\n}\n.syntaxhighlighter td.gutter {\n    max-width: 0px !important;\n}\n\n\n@media print {\n    body .syntaxhighlighter, body .syntaxhighlighter a, body .syntaxhighlighter div, body .syntaxhighlighter code, body .syntaxhighlighter table, body .syntaxhighlighter table td, body .syntaxhighlighter table tr, body .syntaxhighlighter table tbody, body .syntaxhighlighter table thead, body .syntaxhighlighter table caption, body .syntaxhighlighter textarea  {\n        font-size: 17px !important;\n    }\n}\n\n@media screen {\n    body .syntaxhighlighter, body .syntaxhighlighter a, body .syntaxhighlighter div, body .syntaxhighlighter code, body .syntaxhighlighter table, body .syntaxhighlighter table td, body .syntaxhighlighter table tr, body .syntaxhighlighter table tbody, body .syntaxhighlighter table thead, body .syntaxhighlighter table caption, body .syntaxhighlighter textarea  {\n        font-size: 18px !important;\n    }\n}\n\n\nbody #wrap .syntaxhighlighter .string {\n    color: #269e42 !important;\n}\n\nbody #wrap .syntaxhighlighter .keyword {\n    color: #000099 !important;\n}\n\n.syntaxhighlighter .color1, .syntaxhighlighter .color1 a {\n    color: #0086ff !important;\n    font-weight: bold !important;\n}",
 				"domains": [
 					"baeldung.com"
 				]
 			}
 		],
-		"updateDate": 1583583225517,
+		"updateDate": 1588139886762,
 		"_id": "42feeddd-77ae-4fe3-b19e-062609ff113e",
-		"_rev": 1583918941322,
+		"_rev": 1588139886762,
 		"id": 5
 	},
 	{
@@ -420,7 +420,7 @@
 		"id": 21
 	},
 	{
-		"enabled": false,
+		"enabled": true,
 		"updateUrl": null,
 		"md5Url": null,
 		"url": null,
@@ -438,10 +438,10 @@
 		"updateDate": 1580122783154,
 		"id": 22,
 		"_id": "b69e9100-1918-4af9-ad84-0e84b0ecf008",
-		"_rev": 1583918941322
+		"_rev": 1588084731585
 	},
 	{
-		"enabled": true,
+		"enabled": false,
 		"updateUrl": null,
 		"md5Url": null,
 		"url": null,
@@ -458,7 +458,7 @@
 		],
 		"updateDate": 1583576667938,
 		"_id": "11caf47c-3f9f-4ea2-b405-360bef63188a",
-		"_rev": 1583918941322,
+		"_rev": 1588137556789,
 		"id": 23
 	},
 	{
@@ -712,5 +712,26 @@
 		"_id": "fd43a42e-01c6-4e29-9077-67f8617b89bc",
 		"_rev": 1587973412891,
 		"id": 37
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1588138218172,
+		"name": "medium.com",
+		"sections": [
+			{
+				"code": ".js {\n    background: none;\n    border: 1px lightgray solid;\n    border-radius: 5px;\n}",
+				"domains": [
+					"medium.com"
+				]
+			}
+		],
+		"updateDate": 1588138218172,
+		"_id": "f2f87c48-d23e-420e-a686-d8a4c9464f32",
+		"_rev": 1588138218172,
+		"id": 38
 	}
 ]
