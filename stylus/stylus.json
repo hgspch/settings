@@ -723,15 +723,36 @@
 		"name": "medium.com",
 		"sections": [
 			{
-				"code": ".js {\n    background: none;\n    border: 1px lightgray solid;\n    border-radius: 5px;\n}",
+				"code": "@media print {\n    .hy {\n        font-size: 17px;\n    }\n}\n.bq {\n    display: none;\n}\n.dq {\n    max-width: 980px;\n}\n.kb {\n    max-width: 980px;\n}\n\n.js {\n    background: none;\n    border: 1px lightgray solid;\n    border-radius: 5px;\n}\n.jr {\n    background: none;\n    margin: 5px;\n}\n.gq {\n        margin-top: 10px; \n}\n.jq {\n    padding-left: 0;\n    padding-right: 0;\n    padding-bottom: 5px;\n}\n.gist .gist-meta {\n    display: none;\n}\n.id {\n    margin-top: 3px;\n}\n.gist .blob-num:before {\n    /*content: attr(data-line-number);*/\n    display: none;\n}\n.gist .blob-code-inner {\n    font-size: 18px;\n}\n/* footer */\n.mx {\n    display: none;\n}\n.nw, .nq, .rd {\n    display: none;\n}\n.gist .blob-wrapper {\n    overflow-x: visible;\n    overflow-y: visible;\n}",
 				"domains": [
 					"medium.com"
 				]
 			}
 		],
-		"updateDate": 1588138218172,
+		"updateDate": 1588336674538,
 		"_id": "f2f87c48-d23e-420e-a686-d8a4c9464f32",
-		"_rev": 1588138218172,
+		"_rev": 1588336674538,
 		"id": 38
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1588432925419,
+		"name": "wiremock.org",
+		"sections": [
+			{
+				"code": "div.highlighter-rouge .highlight, figure.highlight .highlight {\n    font-size: 15px;\n    line-height: 1.5;\n}\np>code, a>code, li>code, figcaption>code, td>code {\n    font-size: .9em;\n} \nh4 {\n    font-size: 1em;\n}\npre {\n    overflow-x: visible;\n}\ndiv.highlighter-rouge, figure.highlight {\n    background: none;\n}\np>code, a>code, li>code, figcaption>code, td>code {\n    background: none;\n}\n.highlight .nd {\n    color: #22b3eb;\n    font-weight: bold;\n}\n.highlight .kd, .highlight .kt, .highlight .k {\n    color: blue;\n}\n.highlight .o {\n    color: #d27300;\n}\n.highlight .s {\n    color: #00792c;\n}\n\n.highlight .s2 {\n    color: #009e48;\n}",
+				"domains": [
+					"wiremock.org"
+				]
+			}
+		],
+		"updateDate": 1588435258048,
+		"_id": "9e6d4b30-c324-44ed-8493-97f6c16fb6e3",
+		"_rev": 1588435258048,
+		"id": 39
 	}
 ]
