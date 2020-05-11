@@ -441,7 +441,7 @@
 		"_rev": 1588084731585
 	},
 	{
-		"enabled": false,
+		"enabled": true,
 		"updateUrl": null,
 		"md5Url": null,
 		"url": null,
@@ -458,7 +458,7 @@
 		],
 		"updateDate": 1583576667938,
 		"_id": "11caf47c-3f9f-4ea2-b405-360bef63188a",
-		"_rev": 1588137556789,
+		"_rev": 1588686772624,
 		"id": 23
 	},
 	{
@@ -754,5 +754,26 @@
 		"_id": "9e6d4b30-c324-44ed-8493-97f6c16fb6e3",
 		"_rev": 1588435258048,
 		"id": 39
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1589179079922,
+		"name": "visual-paradigm.com",
+		"sections": [
+			{
+				"code": "\n\n/* fonts */\n.vpdoc p, .vpdoc p span.notranslate {    \n    font-size: 18px;\n    line-height: 1.3em;\n}\n.vpdoc, .vpdoc td, .vpdoc pre, .vpdoc span.notranslate {    \n    font-size: 17px;\n    line-height: 1.3em;\n}\n.vpdoc h2, .vpdoc h2 span.notranslate {\n    font-size: 20px;\n}\n\n/* left nav */\ndiv.leftMenuMiddle select {\n    font-size: 18px;\n    width: 325px!important;\n}\n.userGuideMenuPart, .userGuideMenuPart a {\n    font-size: 18px;\n}\n.userGuideMenuChapter {\n    font-size: 17px;\n}\nblockquote.userGuideMenuSection p , blockquote.userGuideMenuSection p a {\n    font-size: 17px;\n}\n\n#contentWrapper .mainContent {\n    margin-left: 360px!important;\n}\ndiv.leftMenu {\n    width: 345px;\n}\ndiv.leftMenuMiddle {\n    background: none;\n}\ndiv.leftMenuMiddle div.scrollable {\n    border: 1px solid gray;\n}",
+				"domains": [
+					"visual-paradigm.com"
+				]
+			}
+		],
+		"updateDate": 1589180261077,
+		"_id": "c879caf3-fe23-4906-8ba2-ce868eb0d084",
+		"_rev": 1589180261077,
+		"id": 40
 	}
 ]
