@@ -765,15 +765,15 @@
 		"name": "visual-paradigm.com",
 		"sections": [
 			{
-				"code": "\n\n/* fonts */\n.vpdoc p, .vpdoc p span.notranslate {    \n    font-size: 18px;\n    line-height: 1.3em;\n}\n.vpdoc, .vpdoc td, .vpdoc pre, .vpdoc span.notranslate {    \n    font-size: 17px;\n    line-height: 1.3em;\n}\n.vpdoc h2, .vpdoc h2 span.notranslate {\n    font-size: 20px;\n}\n\n/* left nav */\ndiv.leftMenuMiddle select {\n    font-size: 18px;\n    width: 325px!important;\n}\n.userGuideMenuPart, .userGuideMenuPart a {\n    font-size: 18px;\n}\n.userGuideMenuChapter {\n    font-size: 17px;\n}\nblockquote.userGuideMenuSection p , blockquote.userGuideMenuSection p a {\n    font-size: 17px;\n}\n\n#contentWrapper .mainContent {\n    margin-left: 360px!important;\n}\ndiv.leftMenu {\n    width: 345px;\n}\ndiv.leftMenuMiddle {\n    background: none;\n}\ndiv.leftMenuMiddle div.scrollable {\n    border: 1px solid gray;\n}",
+				"code": "@media print {\n    img {\n        opacity: 70%;\n    }\n    .topbar-container, .breadcrumb-container, .tut-nav.menu, .quote-container, .promo-container, footer, .row .related-links, .row .interested-links, .social-container {\n        display: none;\n    }\n    html, body, .vpdoc p, .vpdoc p span.notranslate, .vpdoc, .vpdoc td, .vpdoc pre, .vpdoc span.notranslate {    \n        font-size: 13px!important;\n    }\n}\n\n\n@media screen {\n    /* fonts */\n    .vpdoc p, .vpdoc p span.notranslate {    \n        font-size: 18px;\n        line-height: 1.3em;\n    }\n    .vpdoc, .vpdoc td, .vpdoc pre, .vpdoc span.notranslate {    \n        font-size: 17px;\n        line-height: 1.3em;\n    }\n    .vpdoc h2, .vpdoc h2 span.notranslate {\n        font-size: 20px;\n        margin-bottom: 15px;\n    }\n   /* left nav */\n    div.leftMenuMiddle select {\n        font-size: 18px;\n    } \n    .userGuideMenuPart, .userGuideMenuPart a {\n        font-size: 18px;\n    }\n    .userGuideMenuChapter {\n        font-size: 17px;\n    }\n    blockquote.userGuideMenuSection p , blockquote.userGuideMenuSection p a {\n        font-size: 17px;\n    }\n}\n/* left nav */\ndiv.leftMenuMiddle select {\n    width: 325px!important;\n}\n\n\n#contentWrapper .mainContent {\n    margin-left: 360px!important;\n}\ndiv.leftMenu {\n    width: 345px;\n}\ndiv.leftMenuMiddle {\n    background: none;\n}\ndiv.leftMenuMiddle div.scrollable {\n    border: 1px solid gray!important;\n}",
 				"domains": [
 					"visual-paradigm.com"
 				]
 			}
 		],
-		"updateDate": 1589180261077,
+		"updateDate": 1589384572410,
 		"_id": "c879caf3-fe23-4906-8ba2-ce868eb0d084",
-		"_rev": 1589180261077,
+		"_rev": 1589384572410,
 		"id": 40
 	}
 ]
