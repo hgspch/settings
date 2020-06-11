@@ -366,15 +366,15 @@
 		"name": "spring.io",
 		"sections": [
 			{
-				"code": "/* PRINT */\n.content img {\n    opacity: 0.7;\n    filter: contrast(3) saturate(0.5);\n}\npre.highlight code {\n    color: black;\n}\n.admonitionblock {\n    background-color: inherit;\n    border: 1px solid lightgreen;\n    overflow-x: visible;\n}\n.admonitionblock td.icon .icon-note:before {\n    color: #78e033;\n}\n.admonitionblock.important {\n    border: 1px solid #e20000;\n    background-color: inherit;\n}\n.admonitionblock td.icon .icon-important:before {\n    color: #ffa6a6;\n}\n.admonitionblock.warning {\n    border: 1px solid orange;\n    background-color: inherit;\n}\n.admonitionblock td.icon .icon-warning:before {    \n    color: #ffd88f;\n}\n.exampleblock>.content {\n    background: inherit;\n}\npre.highlight {\n    background: inherit;\n}\n.hljs {\n    background: inherit;\n    border: 1px solid lightgray;\n}\n*:not(pre)>code {\n    background-color: inherit;\n    border: 1px solid lightgray;    \n}\n.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class=highlight], .listingblock pre[class^=\"highlight \"], .listingblock pre.CodeRay, .listingblock pre.prettyprint {\n    background: inherit;\n    color: black;\n    border: 1px solid lightgray;\n}\n.conum[data-value] {\n    color: gray !important;\n    background-color: inherit;\n    border: 2px solid #ffe157;\n}\n.exampleblock>.content {\n    padding: 0;\n}\n.listingblock pre.highlightjs>code {\n    padding: 0.5em 1rem;\n}\n/* print hljs */\n.hljs-built_in, .hljs-class .hljs-title {\n    color: #c38500;\n}\n.hljs-function {\n    color: #7b00d4;\n}\n.hljs-function .hljs-params {\n    color: #7700bd;\n}\n.hljs-title {\n    color: #0057ff;\n}\n.hljs-keyword, .hljs-operator {\n    color: #000099;\n    font-weight: bold;\n}\n.hljs-meta {\n    color: #0086ff;\n    font-weight: bold;\n}\n.hljs-string {\n    color: #00920d;\n}\n.hljs-class .hljs-title {\n    color: #7700bd;\n}\n.hljs-number {\n    color: #0086ff;\n}\n\n/* OTHER */\n@media only screen and (min-width: 1280px) {\n    body.toc2 #header, body.toc2 #content, body.toc2 #footnotes, body.toc2 #footer {\n        max-width: 1550px;\n    }\n}\nbody, .contentContainer, pre.programlisting, tt {\n    font-size: 18px;\n}\npre, code {\n    font-size: 18px;\n}\n.literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class], .listingblock pre:not(.highlight) {\n    font-size: .93em;\n}\n*:not(pre)>code {\n    font-size: 0.93em;\n}    \ndiv.block {\n    font-size: 18px;\n    font-family: Verdana;\n}\n\n.guide main code, .guide main pre {\n font-size: 17px;\n}\n\n.guide main .span8 {\n    width: 1000px;\n}",
+				"code": "/* PRINT */\n.content img {\n    opacity: 0.7;\n    filter: contrast(3) saturate(0.5);\n}\npre.highlight code {\n    color: black;\n}\n.admonitionblock {\n    background-color: inherit;\n    border: 1px solid lightgreen;\n    overflow-x: visible;\n}\n.admonitionblock td.icon .icon-note:before {\n    color: #78e033;\n}\n.admonitionblock.important {\n    border: 1px solid #e20000;\n    background-color: inherit;\n}\n.admonitionblock td.icon .icon-important:before {\n    color: #ffa6a6;\n}\n.admonitionblock.warning {\n    border: 1px solid orange;\n    background-color: inherit;\n}\n.admonitionblock td.icon .icon-warning:before {    \n    color: #ffd88f;\n}\n.exampleblock>.content {\n    background: inherit;\n}\npre.highlight {\n    background: inherit;\n}\n.hljs {\n    background: inherit;\n    border: 1px solid lightgray;\n}\n*:not(pre)>code {\n    background-color: inherit;\n    border: 1px solid lightgray;    \n}\n.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class=highlight], .listingblock pre[class^=\"highlight \"], .listingblock pre.CodeRay, .listingblock pre.prettyprint {\n    background: inherit;\n    color: black;\n    border: 1px solid lightgray;\n}\n.conum[data-value] {\n    color: gray !important;\n    background-color: inherit;\n    border: 2px solid #ffe157;\n}\n.exampleblock>.content {\n    padding: 0;\n}\n.listingblock pre.highlightjs>code {\n    padding: 0.5em 1rem;\n}\n/* print hljs */\n.hljs-built_in, .hljs-class .hljs-title {\n    color: #c38500;\n}\n.hljs-function {\n    color: #7b00d4;\n}\n.hljs-function .hljs-params {\n    color: #7700bd;\n}\n.hljs-title {\n    color: #0057ff;\n}\n.hljs-keyword, .hljs-operator {\n    color: #000099;\n    font-weight: bold;\n}\n.hljs-meta {\n    color: #0086ff;\n    font-weight: bold;\n}\n.hljs-string {\n    color: #00920d;\n}\n.hljs-class .hljs-title {\n    color: #7700bd;\n}\n.hljs-number {\n    color: #0086ff;\n}\n\n/* OTHER */\n@media only screen and (min-width: 1280px) {\n    body.toc2 #header, body.toc2 #content, body.toc2 #footnotes, body.toc2 #footer {\n        max-width: 1550px;\n    }\n    body, .contentContainer, pre.programlisting, tt {\n        font-size: 18px;\n    }\n    pre, code {\n        font-size: 18px;\n    }\n    .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class], .listingblock pre:not(.highlight) {\n        font-size: .93em;\n    }\n    *:not(pre)>code {\n        font-size: 0.93em;\n    }    \n    div.block {\n        font-size: 18px;\n        font-family: Verdana;\n    }\n    .guide main code, .guide main pre {\n        font-size: 17px;\n    }\n}\n@media only print {\n     body, .contentContainer, pre.programlisting, tt, pre, code, div.block {\n        font-size: 15px!important;\n    }\n    .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class], .listingblock pre:not(.highlight), *:not(pre)>code {\n        font-size: 0.8em;\n    }    \n    .guide main code, .guide main pre {\n        font-size: 14px!important;\n    }\n}\n\n\n.guide main .span8 {\n    width: 1000px;\n}",
 				"domains": [
 					"spring.io"
 				]
 			}
 		],
-		"updateDate": 1591161023596,
+		"updateDate": 1591277776630,
 		"_id": "3b9c7202-ddf3-4261-94a4-10b512ecb611",
-		"_rev": 1591161023596,
+		"_rev": 1591277776630,
 		"id": 19
 	},
 	{
@@ -702,15 +702,15 @@
 		"name": "jira.factory.intescia.dev",
 		"sections": [
 			{
-				"code": "body {\n    font-size: 18px!important;\n}\n@media print {\n    body {\n        font-size: 17px!important;\n    }\n    .issue-view {\n        overflow-y: visible;\n        overflow-x: visible;\n    }\n}",
+				"code": "body {\n    font-size: 18px!important;\n}\n.preformatted, .code {\n    font-size: 17px;\n}\n.issue-link {\n    font-weight: bold;\n    font-size: 22px;\n    background-color: yellow;\n}\n@media print {\n    body {\n        font-size: 17px!important;\n    }\n    .issue-view {\n        overflow-y: visible;\n        overflow-x: visible;\n    }\n}",
 				"domains": [
 					"jira.factory.intescia.dev"
 				]
 			}
 		],
-		"updateDate": 1590137748770,
+		"updateDate": 1591706808544,
 		"_id": "fd43a42e-01c6-4e29-9077-67f8617b89bc",
-		"_rev": 1590137748770,
+		"_rev": 1591706808544,
 		"id": 37
 	},
 	{
@@ -807,15 +807,15 @@
 		"name": "gitlab.factory.insight.doubletrade.com",
 		"sections": [
 			{
-				"code": "pre code {\n    font-size: 14px;\n}",
+				"code": ".breadcrumbs-list>li>a {\n    font-size: 15px;\n}\n.breadcrumbs-sub-title {\n    font-size: 15px;\n}\npre code {\n    font-size: 14px;\n}",
 				"domains": [
 					"gitlab.factory.insight.doubletrade.com"
 				]
 			}
 		],
-		"updateDate": 1590737683338,
+		"updateDate": 1591244972176,
 		"_id": "39bdcc4b-d172-4a8c-8cf4-f568441a9598",
-		"_rev": 1590737683338,
+		"_rev": 1591244972176,
 		"id": 42
 	},
 	{
